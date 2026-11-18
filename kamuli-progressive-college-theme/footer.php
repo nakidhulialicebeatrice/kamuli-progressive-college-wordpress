@@ -1,0 +1,1 @@
+<footer class="site-footer"><div class="footer-inner"><p>&copy; <?php echo esc_html(wp_date('Y')); ?> <?php bloginfo('name'); ?>. All rights reserved.</p><p>Kamuli District, Uganda</p></div></footer><?php wp_footer(); ?></body></html>

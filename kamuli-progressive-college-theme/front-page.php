@@ -1,0 +1,12 @@
+<?php get_header(); ?>
+<section class="hero"><div class="hero-inner"><h1>Welcome to Kamuli Progressive College</h1><p>Building knowledge, character and practical skills for the future. A learner-centred secondary school committed to academic excellence, discipline, innovation and responsible citizenship.</p><a class="button" href="<?php echo esc_url(home_url('/about-us/')); ?>">Discover Our College</a></div></section>
+<main id="content"><section class="section"><div class="container"><div class="section-heading"><h2>Welcome Message</h2><p>We give students, parents and visitors easy access to information about our school and learning community.</p></div><div class="cards">
+<article class="feature-card"><img src="<?php echo kpc_image('download.jfif'); ?>" alt="Education"><div class="card-body"><h3>Quality Education</h3><p>Strong academic programmes and learner support across O-Level and A-Level.</p></div></article>
+<article class="feature-card"><img src="<?php echo kpc_image('lapic.jpg'); ?>" alt="ICT learning"><div class="card-body"><h3>Digital Skills</h3><p>Practical ICT, computer studies and technology learning.</p></div></article>
+<article class="feature-card"><img src="<?php echo kpc_image('tropic.jpg'); ?>" alt="Talent development"><div class="card-body"><h3>Talent Development</h3><p>Sports, leadership and co-curricular activities that help learners grow.</p></div></article>
+</div></div></section>
+<section class="section section-soft"><div class="container"><div class="section-heading"><h2>Explore Kamuli Progressive College</h2><p>Learn more about our school, the services we offer and student life.</p></div><div class="cards">
+<article class="content-card"><div class="card-body"><h3>About Our College</h3><p>Read about our background, mission, vision and values.</p><a href="<?php echo esc_url(home_url('/about-us/')); ?>">Read about us →</a></div></article>
+<article class="content-card"><div class="card-body"><h3>Our Services</h3><p>Discover academic, debate, public speaking and co-curricular opportunities.</p><a href="<?php echo esc_url(home_url('/our-services/')); ?>">View services →</a></div></article>
+<article class="content-card"><div class="card-body"><h3>Get in Touch</h3><p>Contact the college with questions or an enquiry.</p><a href="<?php echo esc_url(home_url('/contact-us/')); ?>">Contact us →</a></div></article>
+</div></div></section></main><?php get_footer(); ?>
